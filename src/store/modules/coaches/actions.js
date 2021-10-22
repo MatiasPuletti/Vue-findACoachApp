@@ -30,7 +30,7 @@ export default {
   },
   async loadCoaches(context) {
     const response = await fetch(
-      `https://findacoachapp-22997-default-rtdb.europe-west1.firebasedatabase.app/coaches/coaches.json`
+      `https://findacoachapp-22997-default-rtdb.europe-west1.firebasedatabase.app/coaches.json`
     );
     const responseData = await response.json();
 
